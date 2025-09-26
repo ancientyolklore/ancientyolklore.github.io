@@ -5,7 +5,7 @@
   --accent: #e0a100;
   --border: #e5dcc5;
   --max-width: 960px;
-  --font-stack: "Rockwell Extra Bold", sans-serif;
+  --font-stack: "Lucida Console", "Lucida sans Typewriter", "Rockwell Extra Bold", sans-serif;
 }
 
 * {
