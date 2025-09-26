@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Documentation
 description: Everything you need to work with the Ancient Yolk Lore project.
@@ -14,3 +14,4 @@ permalink: /docs/
   </li>
   {% endfor %}
 </ul>
+

@@ -1,4 +1,4 @@
----
+﻿---
 layout: doc
 title: Troubleshooting
 nav_order: 3
@@ -20,3 +20,4 @@ summary: Fix common problems that appear when developing or deploying the site.
 ## Deployment Delays
 
 GitHub Pages can take a few minutes to rebuild. Confirm the workflow status in your repository's **Actions** tab when using GitHub Pages with GitHub Actions.
+

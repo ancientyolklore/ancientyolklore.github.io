@@ -1,4 +1,4 @@
----
+﻿---
 layout: doc
 title: Getting Started
 nav_order: 1
@@ -21,3 +21,4 @@ Once the server is running, open `http://localhost:4000` in your browser to see 
 ## Deployment
 
 Push changes to the `main` branch. GitHub Pages will rebuild and publish the site automatically.
+

@@ -1,4 +1,4 @@
-# Ancient Yolk Lore
+﻿# Ancient Yolk Lore
 
 A GitHub Pages site powered by Jekyll. It contains:
 
@@ -15,3 +15,4 @@ A GitHub Pages site powered by Jekyll. It contains:
 4. Visit `http://localhost:4000` to preview changes.
 
 Changes merged into `main` will be published automatically by GitHub Pages.
+

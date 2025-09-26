@@ -1,4 +1,4 @@
----
+﻿---
 layout: doc
 title: Project Structure
 nav_order: 2
@@ -22,3 +22,4 @@ Site-wide settings live in `_config.yml`. Update navigation titles, links, or pl
 - Create new posts by adding Markdown files to `_posts/` with the `YYYY-MM-DD-name.md` pattern.
 - Add new documentation topics in `_docs/` with the desired `nav_order` to control sidebar ordering.
 - Standalone pages (contact, team, etc.) can live at the repository root or in their own folders.
+

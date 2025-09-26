@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Blog
 permalink: /blog/
@@ -9,8 +9,9 @@ permalink: /blog/
   {% for post in all_posts %}
   <li>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}{% if post.author %} � {{ post.author }}{% endif %}</p>
+    <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}{% if post.author %} • {{ post.author }}{% endif %}</p>
     <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
   </li>
   {% endfor %}
 </ul>
+

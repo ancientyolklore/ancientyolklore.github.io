@@ -1,4 +1,4 @@
-title: Ancient Yolk Lore
+﻿title: Ancient Yolk Lore
 description: Practice site to document repos, projects, and experiments.
 baseurl: ""
 url: ""
@@ -27,3 +27,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
