@@ -8,4 +8,4 @@ This is the first post on the Ancient Yolk Lore project journal. Expect regular 
 
 To get started locally, read the **Getting Started** guide in the documentation section. It walks through cloning the repo, installing dependencies, and spinning up a development server.
 
-Thanks for visiting—more to come soon!
+Thanks for visitingï¿½more to come soon!

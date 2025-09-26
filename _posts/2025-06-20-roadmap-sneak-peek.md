@@ -10,4 +10,4 @@ We are planning several improvements over the next few weeks:
 2. **Theme enhancements** to add a dark mode toggle and richer typography.
 3. **Contributor guides** covering pull request workflows and review expectations.
 
-If you have ideas or want to help, open an issue on the repository—collaboration is encouraged!
+If you have ideas or want to help, open an issue on the repositoryï¿½collaboration is encouraged!
