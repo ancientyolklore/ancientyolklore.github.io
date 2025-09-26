@@ -1,3 +1,29 @@
-theme: jekyll-theme-minimal
-title: AYL's homepage
-description: practice site to document repos/projects
+title: Ancient Yolk Lore
+description: Practice site to document repos, projects, and experiments.
+baseurl: ""
+url: ""
+permalink: /blog/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: _docs
+      type: docs
+    values:
+      layout: doc
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - vendor

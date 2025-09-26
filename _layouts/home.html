@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<section class="hero">
+  <h2>{{ site.description }}</h2>
+  <p>Explore the latest updates, learn from the docs, or get to know the project.</p>
+</section>
+<section class="section">
+  <h2>Latest Posts</h2>
+  {% if site.posts and site.posts != empty %}
+  <ul class="post-list">
+    {% assign recent_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in recent_posts limit: 3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: '%B %d, %Y' }}</span>
+      <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No posts yet. Check back soon!</p>
+  {% endif %}
+</section>
+<section class="section">
+  <h2>Documentation Highlights</h2>
+  {% if site.docs and site.docs != empty %}
+  <ul class="doc-list">
+    {% assign ordered_docs = site.docs | sort: 'nav_order' %}
+    {% for doc in ordered_docs %}
+    <li>
+      <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+      {% if doc.summary %}<p>{{ doc.summary }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>Documentation is coming soon.</p>
+  {% endif %}
+</section>

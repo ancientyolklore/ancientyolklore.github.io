@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="doc-layout">
+  <aside class="doc-sidebar">
+    <h2>Docs</h2>
+    <ul>
+      {% assign docs = site.docs | sort: 'nav_order' %}
+      {% for doc in docs %}
+      <li {% if doc.url == page.url %}class="active"{% endif %}>
+        <a href="{{ doc.url | relative_url }}">{{ doc.nav_title | default: doc.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+  <article class="doc-content">
+    <header>
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}<p class="doc-summary">{{ page.summary }}</p>{% endif %}
+    </header>
+    {{ content }}
+  </article>
+</div>
