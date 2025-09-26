@@ -5,7 +5,7 @@
   --accent: #e0a100;
   --border: #e5dcc5;
   --max-width: 960px;
-  --font-stack: "Lucida Console", "Lucida sans Typewriter", "Rockwell Extra Bold", sans-serif;
+  --font-stack: "Lucida Console", "Lucida Sans Typewriter", "Lucida Sans Unicode", "Lucida Grande", monospace;
 }
 
 * {
@@ -153,4 +153,5 @@ a:hover {
     width: 100%;
   }
 }
+
 
